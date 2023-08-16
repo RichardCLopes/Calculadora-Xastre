@@ -8,8 +8,7 @@ int main(){
         printf("\nOperacao\n1-Soma\n2-Subtracao\n3-Divisao\n4-Multiplicacao\n5-Sair:");
         scanf("%d", &opcao);
         if (opcao == 5)
-        sair++ ;
-        while (sair == 0){
+        break ;
         printf("Numero 1 :");
         scanf("%f", &valor_a);
         printf("Numero 2 :");
@@ -35,6 +34,6 @@ int main(){
             default:
                 break;
             }
-        }
+        
     }while(opcao!=5);
 }
