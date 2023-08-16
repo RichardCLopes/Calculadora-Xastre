@@ -27,7 +27,8 @@ int main(){
         printf("%.2f", resposta);
             break;
         case 4:
-
+        resposta = valor_a * valor_b;
+        printf("%.2f", resposta);
         break;
         default:
             break;
