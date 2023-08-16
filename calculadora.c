@@ -17,19 +17,19 @@ int main(){
             {
             case 1:
             resposta = valor_a + valor_b;
-            printf("\nSoma = %.2f\n", resposta);
+            printf("%.2f", resposta);
                 break;
             case 2:
             resposta = valor_a - valor_b;
-            printf("\nSubtracao = %.2f\n", resposta);
+            printf("%.2f", resposta);
                 break;
             case 3:
             resposta = valor_a / valor_b;
-            printf("\nDivisao = %.2f\n", resposta);
+            printf("%.2f", resposta);
                 break;
             case 4:
             resposta = valor_a * valor_b;
-            printf("\nMultiplicacao = %.2f\n", resposta);
+            printf("%.2f", resposta);
             break;
             default:
                 break;
