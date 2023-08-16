@@ -33,5 +33,5 @@ int main(){
         default:
             break;
         }
-    }while(sair!=5);
+    }while(opcao!=5);
 }
