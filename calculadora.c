@@ -7,7 +7,6 @@ int main(){
     do {
         printf("\nOperacao\n1-Soma\n2-Subtracao\n3-Divisao\n4-Multiplicacao\n5-Sair:");
         scanf("%d", &opcao);
-        printf("%d", opcao);
         printf("Numero 1 :");
         scanf("%f", &valor_a);
         printf("Numero 2 :");
@@ -23,12 +22,15 @@ int main(){
         printf("%.2f", resposta);
             break;
         case 3:
+        resposta = valor_a / valor_b;
+        printf("%.2f", resposta);
             break;
         case 4:
-
+        resposta = valor_a * valor_b;
+        printf("%.2f", resposta);
         break;
         default:
             break;
         }
-    }while(sair!=5);
+    }while(opcao!=5);
 }
