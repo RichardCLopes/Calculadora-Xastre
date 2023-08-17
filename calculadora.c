@@ -31,9 +31,28 @@ int main(){
             resposta = valor_a * valor_b;
             printf("\nMultiplicacao = %.2f\n", resposta);
             break;
+<<<<<<< HEAD
             default:
                 break;
             }
         
     }while(opcao!=5);
+=======
+        case 2:
+        resposta = valor_a - valor_b;
+        printf("%.2f", resposta);
+            break;
+        case 3:
+        resposta = valor_a / valor_b;
+        printf("%.2f", resposta);
+            break;
+        case 4:
+        resposta = valor_a * valor_b;
+        printf("%.2f", resposta);
+        break;
+        default:
+            break;
+        }
+    }while(sair!=5);
+>>>>>>> parent of 28934e5 (Update calculadora.c)
 }
